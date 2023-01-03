@@ -13,6 +13,10 @@ dist-ssr
 *.local
 
 .env
+.stylelintcache
+
+#graphql-codegen generated files
+/gql
 
 # Editor directories and files
 .vscode/*

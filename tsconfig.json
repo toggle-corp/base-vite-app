@@ -24,8 +24,10 @@
         "noImplicitReturns": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
+        "baseUrl": ".",
         "paths": {
-            "#generated/*": ["./generated/*"],
+            "#gql": ["./gql/index.ts"],
+            "#gql/*": ["./gql/*"],
             "#components/*": ["./app/components/*"],
             "#utils/*": ["./app/utils/*"],
             "#views/*": ["./app/views/*"],
@@ -39,6 +41,6 @@
             }
         }]
     },
-    "include": ["app", "vite.config.ts", ".eslintrc.cjs", "stylelint.config.cjs", "postcss.config.cjs", "lintstagedrc.cjs"],
+    "include": ["app", "vite.config.ts", ".eslintrc.cjs", "stylelint.config.cjs", "postcss.config.cjs", "gql"],
     "references": [{ "path": "./tsconfig.node.json" }]
 }

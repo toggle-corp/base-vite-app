@@ -11,7 +11,8 @@ function ProtectedLayout() {
                         <NavLink
                             to="/"
                             className={({ isActive }) => _cs(
-                                isActive && styles.isActive, styles.navLink,
+                                isActive && styles.isActive,
+                                styles.navLink,
                             )}
                         >
                             Home
