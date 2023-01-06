@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import '@unocss/reset/tailwind.css';
+
 import Base from './Base';
 import './index.css';
 

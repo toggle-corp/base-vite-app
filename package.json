@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@togglecorp/fujs": "^2.0.0",
+    "@unocss/reset": "^0.48.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.5",

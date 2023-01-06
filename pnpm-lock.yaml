@@ -7,6 +7,7 @@ specifiers:
   '@types/react-router-dom': ^5.3.3
   '@typescript-eslint/eslint-plugin': ^5.46.1
   '@typescript-eslint/parser': ^5.46.1
+  '@unocss/reset': ^0.48.0
   '@vitejs/plugin-react': ^3.0.0
   autoprefixer: ^10.4.13
   browserslist: ^4.21.4
@@ -42,6 +43,7 @@ specifiers:
 
 dependencies:
   '@togglecorp/fujs': 2.0.0
+  '@unocss/reset': 0.48.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.5_biqbaboplfbrettd7655fr4n2y
@@ -2261,6 +2263,10 @@ packages:
       '@typescript-eslint/types': 5.46.1
       eslint-visitor-keys: 3.3.0
     dev: true
+
+  /@unocss/reset/0.48.0:
+    resolution: {integrity: sha512-i7z6Rbs7fXFD3NdlVJViFltpDJUCo5xDm5y01Xaoa4mJQHr/1335Ht0JW/emAJXf170UYSwb2rUeK1J3fty9eg==}
+    dev: false
 
   /@vitejs/plugin-react/3.0.0_vite@4.0.1:
     resolution: {integrity: sha512-1mvyPc0xYW5G8CHQvJIJXLoMjl5Ct3q2g5Y2s6Ccfgwm45y48LBvsla7az+GkkAtYikWQ4Lxqcsq5RHLcZgtNQ==}

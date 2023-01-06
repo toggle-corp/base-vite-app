@@ -39,12 +39,12 @@ pnpm install
 
 When you use this template, try follow the checklist to update your info properly
 
-- [ ] Modify or delete the `LICENSE` file.
-- [ ] If you don't plan to use GitHub Actions, delete the `.github` directory.
-- [ ] Change the `favicon.png`, `apple-touch-icon.png`, `android-chrome-192x192.png`, `android-chrome-512x512.png`, `ms-icon-144x144.png`  and `favicon.ico`.
-- [ ] Change the title, description, icon, apple touch icon, mask icon, ms application tile image, ms application tile color and theme color in the `index.html` and `vite.config.ts`.
-- [ ] Clean up the `READMEs` and remove routes.
-- [ ] Change the `name` field in package.json.
+- [ ] Modify or delete the `LICENSE` file
+- [ ] If you don't plan to use GitHub Actions, delete the `.github` directory
+- [ ] Change the `favicon.png`, `apple-touch-icon.png`, `android-chrome-192x192.png`, `android-chrome-512x512.png`, `ms-icon-144x144.png`  and `favicon.ico`
+- [ ] Change the `title`, `description`, `icon`, `apple touch icon`, `mask icon`, `ms application tile image`, `ms application tile color` and `theme color` in the `index.html` and `vite.config.ts`
+- [ ] Clean up the `READMEs` and remove routes
+- [ ] Change the `name` field in package.json
 
 And, enjoy :)
 
