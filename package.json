@@ -14,6 +14,9 @@
     "stylelint": "stylelint --cache --fix --ignore-path .gitignore **/*.css",
     "test": "vitest"
   },
+  "browserslist": [
+      "defaults"
+  ],
   "dependencies": {
     "@togglecorp/fujs": "^2.0.0",
     "@unocss/reset": "^0.48.4",
