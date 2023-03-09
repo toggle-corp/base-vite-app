@@ -11,7 +11,8 @@
     "lint": "eslint app --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint app --ext .js,.jsx,.ts,.tsx --fix",
     "typecheck": "tsc",
-    "stylelint": "stylelint --cache --fix --ignore-path .gitignore **/*.css",
+    "stylelint": "stylelint --cache --ignore-path .gitignore **/*.css",
+    "stylelint: fix": "stylelint --cache --fix --ignore-path .gitignore **/*.css",
     "test": "vitest"
   },
   "browserslist": [
