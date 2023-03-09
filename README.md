@@ -2,7 +2,7 @@
 
 - [React](https://reactjs.org)
 
-- [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild)
+- [Vite 4](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild)
 
 - [Absolute Imports](https://github.com/aleclarson/vite-tsconfig-paths)
 
