@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@togglecorp/fujs': ^2.0.0
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
   '@types/react-router-dom': ^5.3.3
@@ -42,7 +41,6 @@ specifiers:
   vitest: ^0.25.8
 
 dependencies:
-  '@togglecorp/fujs': 2.0.0
   '@unocss/reset': 0.48.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1219,6 +1217,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
+    dev: true
 
   /@babel/template/7.20.7:
     resolution: {integrity: sha512-8SegXApWe6VoNw0r9JHpSteLKTpTiLZ4rMlGIm9JQ18KiCtyQiAMEazujAHrUS5flrcqYZa75ukev3P6QmUwUw==}
@@ -1955,12 +1954,6 @@ packages:
       svg-parser: 2.0.4
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /@togglecorp/fujs/2.0.0:
-    resolution: {integrity: sha512-Fx5SF9kusbf35uT2WYlI6gdqqSL/e3JN4urAyB2O+jPz1VkG2I85VRqFxGjrg4m/ZZH+HRyGgLhSDn2V8LNdjA==}
-    dependencies:
-      '@babel/runtime': 7.21.0
     dev: false
 
   /@trysound/sax/0.2.0:
@@ -6778,6 +6771,7 @@ packages:
 
   /regenerator-runtime/0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
+    dev: true
 
   /regenerator-transform/0.15.1:
     resolution: {integrity: sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg==}

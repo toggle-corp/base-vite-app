@@ -6,7 +6,7 @@ export default function ErrorPage() {
     if (isRouteErrorResponse(error)) {
         return (
             <div className={styles.errorPage}>
-                <h1 className={styles.heading}>Oops!</h1>
+                <h1>Oops!</h1>
                 <h2>{error.status}</h2>
                 <p>{error.statusText}</p>
                 {error.data?.message && <p>{error.data.message}</p>}
@@ -16,7 +16,7 @@ export default function ErrorPage() {
 
     return (
         <div className={styles.errorPage}>
-            <h1 className={styles.heading}>Oops!</h1>
+            <h1>Oops!</h1>
         </div>
     );
 }
