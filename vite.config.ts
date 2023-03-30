@@ -3,11 +3,10 @@ import react from '@vitejs/plugin-react';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import eslint from 'vite-plugin-eslint';
 import svgr from 'vite-plugin-svgr';
-import viteImagemin from 'vite-plugin-imagemin';
 import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(() => ({
     plugins: [
         // https://github.com/aleclarson/vite-tsconfig-paths
         tsconfigPaths(),
@@ -15,35 +14,6 @@ export default defineConfig(({ mode }) => ({
         eslint({ cache: true }),
         // https://github.com/pd4d10/vite-plugin-svgr
         svgr(),
-        // https://github.com/vbenjs/vite-plugin-imagemin
-        viteImagemin({
-            disable: mode === 'development',
-            gifsicle: {
-                optimizationLevel: 7,
-                interlaced: false,
-            },
-            optipng: {
-                optimizationLevel: 7,
-            },
-            mozjpeg: {
-                quality: 20,
-            },
-            pngquant: {
-                quality: [0.8, 0.9],
-                speed: 4,
-            },
-            svgo: {
-                plugins: [
-                    {
-                        name: 'removeViewBox',
-                    },
-                    {
-                        name: 'removeEmptyAttrs',
-                        active: false,
-                    },
-                ],
-            },
-        }),
         // https://github.com/antfu/vite-plugin-pwa
         VitePWA({
             registerType: 'autoUpdate',
